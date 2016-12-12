@@ -87,7 +87,7 @@
   function lockOn(){
 	  FB.login(function(response) {
 	   console.log(response);
-	 }, {scope: 'public_profile,email,publish_actions'});
+	 }, {scope: 'public_profile,email,publish_actions,user_friends,user_managed_groups,read_custom_friendlists'});
   }
 </script>
 
